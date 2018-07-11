@@ -13,6 +13,7 @@
 		0EC5538420F56CE500D70EAA /* bucket_list.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5538220F56CE500D70EAA /* bucket_list.xcdatamodeld */; };
 		0EC5538620F56CE800D70EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC5538520F56CE800D70EAA /* Assets.xcassets */; };
 		0EC5538920F56CE800D70EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC5538720F56CE800D70EAA /* LaunchScreen.storyboard */; };
+		0EC5539520F5701A00D70EAA /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5539420F5701A00D70EAA /* AddItemVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0EC5538520F56CE800D70EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EC5538820F56CE800D70EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC5538A20F56CE800D70EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC5539420F5701A00D70EAA /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0EC5537B20F56CE500D70EAA /* AppDelegate.swift */,
 				0EC5537D20F56CE500D70EAA /* ViewController.swift */,
 				0EC5537F20F56CE500D70EAA /* Main.storyboard */,
+				0EC5539420F5701A00D70EAA /* AddItemVC.swift */,
 				0EC5538520F56CE800D70EAA /* Assets.xcassets */,
 				0EC5538720F56CE800D70EAA /* LaunchScreen.storyboard */,
 				0EC5538A20F56CE800D70EAA /* Info.plist */,
@@ -141,6 +144,7 @@
 				0EC5537E20F56CE500D70EAA /* ViewController.swift in Sources */,
 				0EC5537C20F56CE500D70EAA /* AppDelegate.swift in Sources */,
 				0EC5538420F56CE500D70EAA /* bucket_list.xcdatamodeld in Sources */,
+				0EC5539520F5701A00D70EAA /* AddItemVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
