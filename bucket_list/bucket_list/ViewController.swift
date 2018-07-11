@@ -53,6 +53,15 @@ class ViewController: UIViewController {
         } else {
             print("came from BAR button")
         }
+//        // ALT WAY
+//        if segue.identifier == "AddItemSegue" {
+//
+//            // Set Self as Destination Delegate
+//
+//        } else if segue.identifier == "EditItemSegue"copy {
+//
+//            // Set Self as Destination Delegate AND Set Item / IndexPath Using Sender
+//        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -75,6 +84,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "AddEditSegue", sender: indexPath)
     }
+    
+
     
     //swipe to delete
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
